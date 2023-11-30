@@ -18,7 +18,7 @@ include __DIR__ . '/functions/functions.php';
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class=" container alert alert-success ">
+                <div class="alert alert-success ">
                     <?php if (isset($_GET['passwordLength'])) {
                         $passwordLength = $_GET['passwordLength'];
                         if (is_numeric($passwordLength) && $passwordLength > 0) {
